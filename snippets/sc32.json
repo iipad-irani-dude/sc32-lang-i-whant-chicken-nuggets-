@@ -1,0 +1,25 @@
+{
+  "Create a string": {
+    "prefix": "str",
+    "body": ["<str name=\"$1\">'$2'</str>"],
+    "description": "Create a new string variable"
+    
+  },
+  "Create a integer": {
+    "prefix": "int",
+    "body": ["<int name=\"$1\">$2</int>"],
+    "description": "Create a new integer variable"
+  },
+  "Print": {
+    "prefix": "print",
+    "body": ["<print>'$1'</print>"],
+    "description": "Print a message"
+  },
+  "input": {
+    "prefix": "input",
+    "body"  : ["<input name =\"$1\"></input>"],
+    "description": "take an input from user "
+  }
+  
+
+}
