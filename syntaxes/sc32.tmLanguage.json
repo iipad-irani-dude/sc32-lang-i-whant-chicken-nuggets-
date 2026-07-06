@@ -1,0 +1,56 @@
+{
+  "name": "SC!32",
+  "scopeName": "source.sc32",
+  "patterns": [
+    { 
+      "name": "keyword.tag.sc32", 
+      "match": "</?sc!32>" 
+    },
+    { 
+      "name": "keyword.tag.str.sc32",
+      "begin": "<str(\\s+[^>]*)?>",
+      "end": "</str>",
+      "patterns": [
+        { "name": "variable.name.sc32", "match": "(?<=name=[\"'])[^\"]+(?=[\"'])" },
+        { "name": "string.quoted.single.sc32", "begin": "'", "end": "'" }
+      ]
+    },
+    { 
+      "name": "keyword.tag.print.sc32", 
+      "match": "<print(\\s+[^>]*)?>|</print>" 
+    },
+    { 
+      "name": "keyword.tag.int.sc32",
+      "begin": "<int(\\s+[^>]*)?>",
+      "end": "</int>",
+      "patterns": [
+        { "name": "integer.name.sc32", "match": "(?<=name=[\"'])[^\"]+(?=[\"'])" },
+        { "name": "integer.quoted.single.sc32", "begin": ";", "end": ";" }
+      ]
+    },
+    { 
+      "name": "comment.line.sc32",
+      "match": "//.*$"
+    },
+    {
+    
+    },
+    { 
+      "name": "comment.block.sc32",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    { 
+      "name": "constant.numeric.sc32",
+      "match": "\\b\\d+\\b"
+    },
+    { 
+      "name": "keyword.tag.input.sc32",
+      "begin": "<input(\\s+[^>]*)?>",
+      "end": "</input>",
+      "patterns": [
+        { "name": "input.name.sc32", "match": "(?<=name=[\"'])[^\"]+(?=[\"'])</input>"}
+      ]
+    }
+  ]
+}
