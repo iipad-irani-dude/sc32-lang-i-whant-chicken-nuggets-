@@ -1,0 +1,32 @@
+{
+  "name": "sc32",
+  "displayName": "SC!32 Language",
+  "publisher": "Mohhamad Sadra Asadi Rad",
+  "engines": {"vscode": "^1.22.0"},
+  "categories": ["Programming Languages"],
+  "icon": "icons/sc32.icon.png",
+  "version": "2.0.0",
+  "contributes": {
+    "languages": [
+      {
+        "id": "sc32",
+        "aliases": ["SC!32", "sc32"],
+        "extensions": [".sc32"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sc32",
+        "scopeName": "source.sc32",
+        "path": "./syntaxes/sc32.tmlanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "sc32",
+        "path": "./snippets/sc32.json"
+      }
+    ]
+  }
+}
