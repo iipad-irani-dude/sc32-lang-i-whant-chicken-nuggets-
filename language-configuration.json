@@ -1,0 +1,11 @@
+{
+  "comments": {
+    "lineComment": "//"
+  },
+  "brackets": [
+    ["<sc!32>", "</sc!32>"],
+    ["<str name=''>", "</str>"],
+    ["<input name =''>","</input>"],
+    ["<print>", "</print>"]
+  ]
+}
