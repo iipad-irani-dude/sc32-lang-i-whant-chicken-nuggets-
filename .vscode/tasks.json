@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+    "tasks": [
+        {
+              "label": "Run SC!32",
+                    "type": "shell",
+                          "command": "C:/sc32/sc32-interpreter.py",
+                                "group": "build",
+                                      "presentation": {
+                                              "echo": true,
+                                                      "reveal": "always",
+                                                              "panel": "shared"
+                                                                    },
+                                                                          "problemMatcher": []
+                                                                              }
+                                                                                ]
+                                                                                }
