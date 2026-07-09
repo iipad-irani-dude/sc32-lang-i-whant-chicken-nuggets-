@@ -9,4 +9,5 @@ SC!32 is a custom HTML-like programming language extension for VS Code.
 - Python interpeter 
 - ALL FIELS MUST BE IN PATH: `C:/sc32`
 - And to use interpeter you must write `THE EXACT FILE NAME` or it wont find yur file to run (still working on)
-- also interpreter.py must be in the path `C:/sc32` 
+- also interpreter.py must be in the path `C:/sc32`
+- btw try this repository https://github.com/formulahendry/vscode-iot-utility.git its cool if you dont wanna use arduino ide for yor arduino ! `# not sopserd`
